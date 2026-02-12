@@ -1,0 +1,25 @@
+name: Publish to Confluence
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**' # Only run if docs change
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    name: Sync to Confluence
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Publish to Confluence
+        uses: markdown-confluence/publish-action@v1
+        with:
+          folder: 'docs'
+          username: ${{ secrets.CONFLUENCE_USERNAME }}
+          api_key: ${{ secrets.CONFLUENCE_API_TOKEN }}
+          site: ${{ secrets.CONFLUENCE_BASE_URL }}
+          root_page_id: ${{ secrets.CONFLUENCE_ROOT_PAGE_ID }}
