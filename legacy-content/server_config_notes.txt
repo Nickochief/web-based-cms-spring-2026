@@ -1,0 +1,29 @@
+TODO: Clean this up before the audit!!! - Jeff
+
+SERVER SETTINGS (Dev Environment)
+------------------------------------------------
+Host: api.acme-internal.com
+Port: 8080 (NOT 3000, stop asking me!)
+Timeout: 60s
+
+// Copying the config object here for reference
+// DO NOT SHARE OUTSIDE ENGINEERING
+{
+  "api_version": "v4.2.1",
+  "enable_caching": true,
+  "max_users": 500,
+  "admin_email": "sysadmin@acme.com",  <-- USE THIS EMAIL FOR ALERTS, NOT DAVE
+  "feature_flags": [
+    "beta_dashboard",
+    "dark_mode"
+  ]
+}
+
+KNOWN ISSUES:
+- The "Dark Mode" feature crashes if you click it twice. 
+- Documented workaround: Tell users to refresh the page.
+- The legacy login (http://old-intranet) is finally dead. DO NOT LINK TO IT.
+
+Run command to start:
+npm run start:prod
+(requires Node v14 or higher)
