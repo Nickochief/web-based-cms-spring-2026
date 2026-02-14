@@ -1,0 +1,20 @@
+{
+	"name": "Class Docs Authoring Env",
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.wordWrap": "on",
+				"files.autoSave": "afterDelay"
+			},
+			"extensions": [
+				"yzhang.markdown-all-in-one",
+				"streetsidesoftware.code-spell-checker",
+				"bierner.markdown-mermaid",
+				"shd101wyy.markdown-preview-enhanced"
+			]
+		}
+	},
+	"postCreateCommand": "echo 'Welcome to the Class Docs Environment! Your tools are ready.'",
+	"remoteUser": "codespace"
+}
