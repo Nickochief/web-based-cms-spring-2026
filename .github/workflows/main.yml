@@ -22,4 +22,3 @@ jobs:
           confluenceSpaceKey: 'WCS2'
           atlassianUserName: '${{ secrets.CONFLUENCE_EMAIL }}'
           atlassianApiToken: '${{ secrets.CONFLUENCE_TOKEN }}'
-          folderToPublish: 'docs'
