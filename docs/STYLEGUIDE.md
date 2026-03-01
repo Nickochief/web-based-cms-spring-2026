@@ -3,7 +3,7 @@
 ### 1. Voice & Tone
 * **Be Direct:** Use the imperative mood. (e.g., "Click Save," not "You should click Save").
 * **Be Friendly but Professional:** Avoid slang, but don't sound like a robot.
-* **Use Plain Language:** Use guidelines set forth by Digital.gov so the content can be accessible and easy to understand. 
+* **Use Plain Language:** Use guidelines set forth by Digital.gov so the content can be accessible and easy to understand.. 
 * **Active Voice:** "The system sends an email" (Good) vs. "An email is sent by the system" (Bad).
 
 ### 2. Formatting Rules
