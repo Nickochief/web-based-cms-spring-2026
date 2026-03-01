@@ -21,6 +21,6 @@
 
 ### 4. Accessibility
 * **Alt Text:** All images must have descriptive alt text for accessibility. 
-* **Links:** Do not use "Click here." Use descriptive link text.
+* **Links:** Do not use "Click here." Use descriptive link text that aligns with the page title.
     * *Bad:* [Click here](http://google.com) for more info.
     * *Good:* See the [Google Homepage](http://google.com) for more info.
