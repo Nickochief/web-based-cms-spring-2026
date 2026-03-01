@@ -22,5 +22,5 @@ jobs:
           atlassianUserName: '${{ secrets.CONFLUENCE_EMAIL }}'
           atlassianApiToken: '${{ secrets.CONFLUENCE_API_TOKEN }}'
           folderToPublish: 'docs'
-          env:
+        env:
           CONFLUENCE_SPACE_KEY: 'WCS2' # This tells the machine exactly where to go!
