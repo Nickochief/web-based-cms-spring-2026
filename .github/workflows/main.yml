@@ -1,4 +1,4 @@
-name: Publish to Confluence
+name: Sync to Confluence
 
 on:
   push:
@@ -10,10 +10,10 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    name: Sync to Confluence
     steps:
       - name: Checkout Code
         uses: actions/checkout@v5
+
       - name: Sync to Confluence
         uses: MaikV/markdown-to-confluence@v5
         with:
