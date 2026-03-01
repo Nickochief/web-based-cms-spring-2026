@@ -12,7 +12,7 @@
     * *Example:* Click **Save**.
 * **Code Blocks:** Use backticks for file names, paths, and code snippets.
     * *Example:* Open the `config.json` file.
-* **Lists:** Use bullet points for options; use numbered lists for sequential steps..
+* **Lists:** Use bullet points for options; use numbered lists for sequential steps.
 
 ### 3. Terminology
 * **"Log in" vs "Login":** "Log in" is a verb. "Login" is a noun.
