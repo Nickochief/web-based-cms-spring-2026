@@ -13,7 +13,7 @@ jobs:
     name: Sync to Confluence
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - - name: Sync to Confluence
         uses: MaikV/markdown-to-confluence@v5
         with:
