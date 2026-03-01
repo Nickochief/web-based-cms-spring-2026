@@ -2,7 +2,7 @@
 
 ### 1. Voice & Tone
 * **Be Direct:** Use the imperative mood. (e.g., "Click Save," not "You should click Save").
-* **Be Friendly but Professional:** Avoid slang, but don't sound like a robot.
+* **Be Friendly but Professional:** Avoid slang, but don't sound like a robot. Use plain language. 
 * **Active Voice:** "The system sends an email" (Good) vs. "An email is sent by the system" (Bad).
 
 ### 2. Formatting Rules
