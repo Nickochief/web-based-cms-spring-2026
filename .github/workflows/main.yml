@@ -19,6 +19,6 @@ jobs:
         with:
           confluenceBaseUrl: '${{ secrets.CONFLUENCE_BASE_URL }}'
           confluenceParentId: '${{ secrets.CONFLUENCE_PARENT_ID }}'
-          confluenceSpaceKey: 'WCS2'
           atlassianUserName: '${{ secrets.CONFLUENCE_EMAIL }}'
           atlassianApiToken: '${{ secrets.CONFLUENCE_TOKEN }}'
+          folderToPublish: 'docs'
