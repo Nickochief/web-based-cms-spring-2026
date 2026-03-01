@@ -15,11 +15,11 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Publish to Confluence
-        uses: markdown-confluence/publish-action@v5
+      - - name: Sync to Confluence
+        uses: MaikV/markdown-to-confluence@v5
         with:
-          folder: 'docs'
-          username: ${{ secrets.CONFLUENCE_USERNAME }}
-          api_key: ${{ secrets.CONFLUENCE_API_TOKEN }}
-          site: ${{ secrets.CONFLUENCE_BASE_URL }}
-          root_page_id: ${{ secrets.CONFLUENCE_ROOT_PAGE_ID }}
+          confluenceBaseUrl: '${{ secrets.CONFLUENCE_BASE_URL }}'
+          confluenceParentId: '${{ secrets.CONFLUENCE_ROOT_PAGE_ID }}'
+          atlassianUserName: '${{ secrets.CONFLUENCE_EMAIL }}'
+          atlassianApiToken: '${{ secrets.CONFLUENCE_API_TOKEN }}'
+          folderToPublish: 'docs'
