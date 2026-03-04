@@ -21,4 +21,4 @@ jobs:
           confluenceParentId: "1310728"
           atlassianUserName: ${{ secrets.CONFLUENCE_EMAIL }}
           atlassianApiToken: ${{ secrets.CONFLUENCE_API_TOKEN }}
-          folderToPublish: "NicholasGarcia-publish"
+          folderToPublish: "docs/NicholasGarcia-publish"
