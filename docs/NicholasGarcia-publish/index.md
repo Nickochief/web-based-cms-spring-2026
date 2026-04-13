@@ -10,10 +10,6 @@ This site contains documentation for Acme Corp employees. Use the links below to
 
 ## Sections
 
-- [Developer Docs](server-configuration.md)
-- [API Settings](api-settings.md)
-- [Known Issues](known-issues.md)
-
-- [Employee Benefits](employee-benefits.md)
-- [Code of Conduct](code-of-conduct.md)
-- [HR Policies](hr-policies.md)
+- [Employee Handbook](Employee Handbook/README.md)
+- [Developer Docs](developer-docs/README.md)
+- [Mission Statement](mission-statement.md)
